@@ -14,7 +14,7 @@ class HttpHandler(BaseHTTPRequestHandler):
 
 
 if __name__ == '__main__':
-    port = 9003
+    port = 8080
     host = ('', port)
     server = ThreadingHTTPServer(host, HttpHandler)
 
