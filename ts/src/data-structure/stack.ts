@@ -1,6 +1,6 @@
 class Node {
   next: Node | undefined;
-  constructor(public data: number) {}
+  constructor(public data: number) { }
 }
 export class Stack {
   private _head: Node | undefined;
